@@ -1,0 +1,16 @@
+{
+  "name": "phoenix-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "json-server -p 8080 --watch db.json",
+    "start": "node server.js",
+    "deploy": "gcloud app deploy app.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
